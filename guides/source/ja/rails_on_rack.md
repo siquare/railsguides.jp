@@ -110,7 +110,7 @@ NOTE: `ActionDispatch::MiddlewareStack`は`Rack::Builder`のRails版ですが、
 Railsにはミドルウェアスタックを調べるための便利なRakeタスクがあります。
 
 ```bash
-$ bin/rails middleware
+$ bin/rake middleware
 ```
 
 作成したばかりのRailsアプリケーションでは、以下のように出力されるはずです。
